@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Ramin from '../../assets/images/raminho.png'
+import Raminn from '../../assets/images/raminho.png'
 import Facebook from '../../assets/images/FB.png'
 import Instagram from '../../assets/images/IG.png'
 import Site from '../../assets/images/www.png'
@@ -23,7 +23,7 @@ export default function Home(){
                     <p>.</p>
                 </Left>
                 <Right>
-                    <ImageRaim src={Ramin} />
+                    <ImageRaim src={Raminn} />
                 </Right>
             </ContainerRight>  */}
             <br></br>
