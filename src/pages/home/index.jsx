@@ -4,6 +4,8 @@ import Raminn from '../../assets/images/raminho.png'
 import Facebook from '../../assets/images/FB.png'
 import Instagram from '../../assets/images/IG.png'
 import Site from '../../assets/images/www.png'
+import LeftImage from '../../assets/images/esq.png'
+import RightImageFloor from '../../assets/images/dir.png'
 
 import { Container, ContainerRight, Right, Left, ImageRaim, Main, Title, TextLocation,
         TextBorderRadius, Content, ContainerContent, ContainerTextAndLocation, ContentContainerRadius,
@@ -12,24 +14,21 @@ import { Container, ContainerRight, Right, Left, ImageRaim, Main, Title, TextLoc
         ContainerCenterFlex, TextBorderRadiusMons, ContainerCenterFlexRow, ContainerCenterValuesColumn, TextContentValueWidth, TextContentValueRight,
         TextFooterCenterValues, ContainerSocials, TextSocials, ContainerSocialsCircleRow, ContainercircleSocial, LogoSocials, ContainerCelebration, TextCelebration,
         ContainerCelebrationLine, ContainerFooterInvite, ContainerFooterInviteTitle, TextFooterInvite, ContainerButtonInvite, ContainerFooterResume, TextResumeTitle,
-        ContenxtResume, Footer, TextLastFooter
+        ContenxtResume, Footer, TextLastFooter, ImageFloorLeft, ImageFloorRight, ContainerRightImageFloor, ContainerLeftImageFloor, ContainerAjustCenter, ContainerPlantRigth,
+        ImageValuesFlor
     } from './homeStyles'
 
 export default function Home(){
     return(
         <Container>
-            {/* <ContainerRight>
+            <ContainerRight>
                 <Left>
                     <p>.</p>
                 </Left>
                 <Right>
                     <ImageRaim src={Raminn} />
                 </Right>
-            </ContainerRight>  */}
-            <br></br>
-            <br></br>
-            <br></br>
-                        
+            </ContainerRight>    
             <Main>
                 <Title>
                     Maiara Fernandes
@@ -41,7 +40,6 @@ export default function Home(){
                     Felipe Costa
                 </Title>
             </Main>
-            
             <ContainerContent>
                 <Content>
                 ESTAMOS MUITO FELIZES EM PODER
@@ -87,15 +85,22 @@ export default function Home(){
 
                 <TextContentDescription>
                     Nesse período de 4 anos, enfrentamos uma pandemia, as dificuldades da vida,
-                    a perda de pessoas queridas mas também conquistamos o fechamento de novos ciclos acadêmicos,
+                    a perda de pessoas queridas mas também vivenciamos o encerramento de ciclos acadêmicos,
                     profissionais e pessoais e principalmente o amor um pelo outro e o carinho de cada um dos nossos
                     convidados para esse jantar.
                     <br></br>
                     <br></br>
                 </TextContentDescription>
                 <TextContentDescription>
-                Nesse passo tão incrível e mágico, celebraremos com um jantar de casamento será em formato
+                Nesse passo tão incrível e mágico, celebraremos com um jantar de casamento que será em formato
                 de jantar por adesão* com mais informações abaixo.
+                <br></br>
+                <br></br>
+                </TextContentDescription>
+
+                <TextContentDescription>
+                Acreditamos muito no que a bell hooks fala sobre o amor ser "uma combinação de cuidado, compromisso, conhecimento, responsabilidade, respeito e confiança." Nesse passo tão incrível e mágico,
+                celebraremos com um jantar de casamento será em formato de jantar por adesão* com mais informações abaixo.
                 <br></br>
                 <br></br>
                 </TextContentDescription>
@@ -151,6 +156,9 @@ export default function Home(){
                 </ContainerCenterFlex>
                 </ContainerCenterValues>
                 <ContainerSocials>
+                    <ContainerPlantRigth>
+                    <ImageValuesFlor src={Raminn}/>
+                    </ContainerPlantRigth>
                     <TextSocials>Para mais informações sobre o que será servido, é possível conferir nas redes do restaurante:</TextSocials>
                     <ContainerSocialsCircleRow>
                         <ContainercircleSocial href="https://www.instagram.com/churrascariatourao/" target="_blank">
@@ -167,17 +175,32 @@ export default function Home(){
                     </ContainerSocialsCircleRow>
                 </ContainerSocials>
                 <ContainerCelebration>
+
+                    <ContainerLeftImageFloor>
+                    <ImageFloorLeft src={LeftImage}/>
+                    </ContainerLeftImageFloor>
+
                     <ContainerCelebrationLine>
                     <TextCelebration>
                     Faremos uma recepção digna da celebração do nosso amor e contamos com você e sua família e estamos solicitando que confirmem a presença até o dia 07 de junho, uma semana anterior ao evento para garantir uma boa organização e que todos se acomodem bem na área que reservaremos no restaurante. 
                     </TextCelebration>
                     </ContainerCelebrationLine>
-                    <ContainerCircleLocation>
+
+                    <ContainerRightImageFloor>
+                    <ImageFloorRight src={RightImageFloor}/>
+                    </ContainerRightImageFloor>    
+
+                    
+
+                </ContainerCelebration>
+                <ContainerAjustCenter>
+                <ContainerCircleLocation>
                     <TextLinkLocation href='https://docs.google.com/forms/d/1wbZTYhFdHNXwXtAL362qTu-DKz0NDaMER4xrSgd-cVU/viewform?edit_requested=true' target="_blank">
                     Clique aqui para confirmar a sua presença
                     </TextLinkLocation>
-                </ContainerCircleLocation>
-                </ContainerCelebration>
+                </ContainerCircleLocation> 
+                </ContainerAjustCenter>
+                 
                 <ContainerFooterInvite>
                     <ContainerFooterInviteTitle>
                         <TextFooterInvite>

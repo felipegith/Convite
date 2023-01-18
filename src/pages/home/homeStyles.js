@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import leftFloor from "../../assets/images/lateral esq.png";
 import background from "../../assets/images/fundo.jpg";
 import { device } from "../../utils/Responsive";
 
@@ -14,14 +15,12 @@ export const ContainerRight = styled.div`
     width: 100%;
 
     display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 `;
 
 export const Right = styled.div`
-    width: 100%;
-    background-color: red;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    width: 50%;
 `;
 
 export const Left = styled.div`
@@ -29,6 +28,7 @@ export const Left = styled.div`
 `;
 export const ImageRaim = styled.img`
     transform: rotate(50deg);
+    margin-top: -28%;
 `;
 
 export const Main = styled.main`
@@ -51,6 +51,20 @@ export const Title = styled.h1`
     color: #394d2e;
 `;
 
+export const ContainerPlantRigth = styled.div`
+    width: 100%;
+
+    background-color: blue;
+`;
+
+export const ImageValuesFlor = styled.img`
+    transform: rotate(-1150deg);
+
+    position: absolute;
+
+    left: -200px;
+    margin-top: -7%;
+`;
 export const TextBorderRadiusMons = styled.span`
     font-family: "Corben", cursive;
     font-style: italic;
@@ -139,6 +153,7 @@ export const TextLinkLocation = styled.a`
 
 export const ContainerGreenDescription = styled.div`
     width: 100%;
+
     padding: 15px;
     margin-top: 7%;
     display: flex;
@@ -250,6 +265,7 @@ export const ContainerSocials = styled.div`
     justify-content: center;
     flex-direction: column;
     margin-top: 10%;
+    margin-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
 `;
@@ -263,6 +279,7 @@ export const TextSocials = styled.span`
 
 export const ContainerSocialsCircleRow = styled.div`
     width: 100%;
+    margin-top: 4%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -280,7 +297,7 @@ export const ContainercircleSocial = styled.a`
 `;
 
 export const LogoSocials = styled.img`
-    width: 100%;
+    width: 80%;
 `;
 
 export const TextCelebration = styled.span`
@@ -294,13 +311,23 @@ export const ContainerCelebration = styled.div`
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
 `;
 
 export const ContainerCelebrationLine = styled.div`
     width: 50%;
-    margin-top: 15%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const ContainerAjustCenter = styled.div`
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const ContainerFooterInvite = styled.div`
@@ -370,4 +397,36 @@ export const TextLastFooter = styled.span`
     text-align: center;
     font-size: 0.9rem;
     color: #394d2e;
+`;
+
+export const ImageFloorLeft = styled.img`
+    object-fit: cover;
+    opacity: 0.5;
+`;
+
+export const ImageFloorRight = styled.img`
+    object-fit: cover;
+    opacity: 0.5;
+
+    /* -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); */
+`;
+export const ContainerRightImageFloor = styled.div`
+    width: 20%;
+    height: 60vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const ContainerLeftImageFloor = styled.div`
+    width: 20%;
+    height: 65vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `;
