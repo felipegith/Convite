@@ -218,7 +218,7 @@ export default function Home(){
                         cor e tamanho que gostariamos de receber porém fica a seu critério usar esse link ou não. Apenas nos avise para que não haja presentes iguais/duplicado.
                         </TextFooterInvite>
                         <ContainerButtonInvite>
-                        <TextLinkLocation href="https://www.notion.so/Lista-de-presentes-948929feeb1349b89acad32f4c17096c" target="_blank">
+                        <TextLinkLocation href="https://quilled-clutch-d22.notion.site/Lista-de-presentes-948929feeb1349b89acad32f4c17096c" target="_blank">
                         Clique aqui para conferir
                         </TextLinkLocation>
                         </ContainerButtonInvite>
