@@ -4,7 +4,7 @@ import background from "../../assets/images/fundo.jpg";
 import { device } from "../../utils/Responsive";
 
 export const Container = styled.div`
-    width: 100%;
+    width: 100;
     height: 100%;
 
     background-image: url(${background});
@@ -21,6 +21,8 @@ export const ContainerRight = styled.div`
 
 export const Right = styled.div`
     width: 50%;
+
+    background-color: red;
 `;
 
 export const Left = styled.div`

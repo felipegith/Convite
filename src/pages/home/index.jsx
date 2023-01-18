@@ -21,14 +21,20 @@ import { Container, ContainerRight, Right, Left, ImageRaim, Main, Title, TextLoc
 export default function Home(){
     return(
         <Container>
-            <ContainerRight>
+            {/* <ContainerRight>
                 <Left>
                     <p>.</p>
                 </Left>
                 <Right>
                     <ImageRaim src={Raminn} />
                 </Right>
-            </ContainerRight>    
+            </ContainerRight>    */}
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <Main>
                 <Title>
                     Maiara Fernandes
@@ -40,6 +46,7 @@ export default function Home(){
                     Felipe Costa
                 </Title>
             </Main>
+            
             <ContainerContent>
                 <Content>
                 ESTAMOS MUITO FELIZES EM PODER
@@ -156,9 +163,9 @@ export default function Home(){
                 </ContainerCenterFlex>
                 </ContainerCenterValues>
                 <ContainerSocials>
-                    <ContainerPlantRigth>
+                    {/* <ContainerPlantRigth>
                     <ImageValuesFlor src={Raminn}/>
-                    </ContainerPlantRigth>
+                    </ContainerPlantRigth> */}
                     <TextSocials>Para mais informações sobre o que será servido, é possível conferir nas redes do restaurante:</TextSocials>
                     <ContainerSocialsCircleRow>
                         <ContainercircleSocial href="https://www.instagram.com/churrascariatourao/" target="_blank">
@@ -177,7 +184,7 @@ export default function Home(){
                 <ContainerCelebration>
 
                     <ContainerLeftImageFloor>
-                    <ImageFloorLeft src={LeftImage}/>
+                   {/*  <ImageFloorLeft src={LeftImage}/> */}
                     </ContainerLeftImageFloor>
 
                     <ContainerCelebrationLine>
@@ -187,7 +194,7 @@ export default function Home(){
                     </ContainerCelebrationLine>
 
                     <ContainerRightImageFloor>
-                    <ImageFloorRight src={RightImageFloor}/>
+                    {/* <ImageFloorRight src={RightImageFloor}/> */}
                     </ContainerRightImageFloor>    
 
                     
