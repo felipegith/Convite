@@ -55,8 +55,6 @@ export const Title = styled.h1`
 
 export const ContainerPlantRigth = styled.div`
     width: 100%;
-
-    background-color: blue;
 `;
 
 export const ImageValuesFlor = styled.img`
@@ -421,20 +419,6 @@ export const ImageFloorRight = styled.img`
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1); */
 `;
-export const ContainerRightImageFloor = styled.div`
-    width: 20%;
-    height: 60vh;
+export const ContainerRightImageFloor = styled.div``;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-`;
-
-export const ContainerLeftImageFloor = styled.div`
-    width: 20%;
-    height: 65vh;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-`;
+export const ContainerLeftImageFloor = styled.div``;

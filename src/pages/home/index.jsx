@@ -181,6 +181,9 @@ export default function Home(){
                         </ContainercircleSocial>
                     </ContainerSocialsCircleRow>
                 </ContainerSocials>
+                <MainContentFloor>
+                 <ImageRaim src={Raminn} />
+                </MainContentFloor>
                 <ContainerCelebration>
 
                     <ContainerLeftImageFloor>
