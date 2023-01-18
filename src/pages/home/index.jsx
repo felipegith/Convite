@@ -15,7 +15,7 @@ import { Container, ContainerRight, Right, Left, ImageRaim, Main, Title, TextLoc
         TextFooterCenterValues, ContainerSocials, TextSocials, ContainerSocialsCircleRow, ContainercircleSocial, LogoSocials, ContainerCelebration, TextCelebration,
         ContainerCelebrationLine, ContainerFooterInvite, ContainerFooterInviteTitle, TextFooterInvite, ContainerButtonInvite, ContainerFooterResume, TextResumeTitle,
         ContenxtResume, Footer, TextLastFooter, ImageFloorLeft, ImageFloorRight, ContainerRightImageFloor, ContainerLeftImageFloor, ContainerAjustCenter, ContainerPlantRigth,
-        ImageValuesFlor
+        ImageValuesFlor, MainContentFloor
     } from './homeStyles'
 
 export default function Home(){
@@ -32,9 +32,7 @@ export default function Home(){
             <br></br>
             <br></br>
             <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+                      
             <Main>
                 <Title>
                     Maiara Fernandes
@@ -46,7 +44,9 @@ export default function Home(){
                     Felipe Costa
                 </Title>
             </Main>
-            
+            <MainContentFloor>
+            <ImageRaim src={Raminn} />
+            </MainContentFloor>
             <ContainerContent>
                 <Content>
                 ESTAMOS MUITO FELIZES EM PODER

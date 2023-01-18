@@ -29,8 +29,8 @@ export const Left = styled.div`
     width: 50%;
 `;
 export const ImageRaim = styled.img`
-    transform: rotate(50deg);
-    margin-top: -28%;
+    /* transform: rotate(50deg);
+    margin-top: -28%; */
 `;
 
 export const Main = styled.main`
@@ -317,7 +317,7 @@ export const ContainerCelebration = styled.div`
 `;
 
 export const ContainerCelebrationLine = styled.div`
-    width: 50%;
+    width: 90%;
     margin-top: 2%;
     display: flex;
     align-items: center;
@@ -327,6 +327,12 @@ export const ContainerCelebrationLine = styled.div`
 export const ContainerAjustCenter = styled.div`
     width: 100%;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const MainContentFloor = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
