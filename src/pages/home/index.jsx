@@ -214,8 +214,7 @@ export default function Home(){
                 <ContainerFooterInvite>
                     <ContainerFooterInviteTitle>
                         <TextFooterInvite>
-                        Muitos amigos e familiares gostariam de contribuir com os itens da nossa casa e por isso montamos essa lista de presentes simples com alguns links de referência do modelo, 
-                        cor e tamanho que gostariamos de receber porém fica a seu critério usar esse link ou não. Apenas nos avise para que não haja presentes iguais/duplicado.
+                        A nossa maior prioridade é que você possa estar presente conosco nesse momento tão especial mas, ainda assim, existem muitas pessoas que fazem questão de nos presentear com itens para o nosso lar. Se for do seu interesse, segue o link abaixo.
                         </TextFooterInvite>
                         <ContainerButtonInvite>
                         <TextLinkLocation href="https://quilled-clutch-d22.notion.site/Lista-de-presentes-948929feeb1349b89acad32f4c17096c" target="_blank">
