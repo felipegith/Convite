@@ -107,13 +107,13 @@ export default function Home(){
 
                 <TextContentDescription>
                 Acreditamos muito no que a bell hooks fala sobre o amor ser "uma combinação de cuidado, compromisso, conhecimento, responsabilidade, respeito e confiança." Nesse passo tão incrível e mágico,
-                celebraremos com um jantar de casamento será em formato de jantar por adesão* com mais informações abaixo.
+                celebraremos com um jantar de casamento que será em formato de jantar por adesão* com mais informações abaixo.
                 <br></br>
                 <br></br>
                 </TextContentDescription>
                 <ContainerGreenFooterCenter>
                     <TextFooterGreen>
-                        * O formato jantar por adesão significa que o consumo é por conta do Convidado.
+                        * O formato jantar por adesão significa que o consumo é por conta do convidado.
                     </TextFooterGreen>
                 </ContainerGreenFooterCenter>
             </ContainerGreenDescription>
@@ -135,7 +135,7 @@ export default function Home(){
                 </TextContentValueWidth>
                 
                 <TextContentValueRight>
-                    98,
+                    99,
                 </TextContentValueRight>
                 </ContainerCenterFlexRow>
 
