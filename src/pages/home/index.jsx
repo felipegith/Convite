@@ -57,7 +57,7 @@ export default function Home(){
             </ContainerContent>
             <ContainerTopRadius>
                 <ContentContainerRadius>
-                    <TextBorderRadiusMons>14</TextBorderRadiusMons>
+                    <TextBorderRadiusMons>16</TextBorderRadiusMons>
                     <TextBorderRadius>JUN</TextBorderRadius>
                     <TextBorderRadius>2023</TextBorderRadius>
                     <TextBorderRadiusMons>19h</TextBorderRadiusMons>
