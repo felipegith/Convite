@@ -205,7 +205,7 @@ export default function Home(){
                 </ContainerCelebration>
                 <ContainerAjustCenter>
                 <ContainerCircleLocation>
-                    <TextLinkLocation href='https://docs.google.com/forms/d/1wbZTYhFdHNXwXtAL362qTu-DKz0NDaMER4xrSgd-cVU/viewform?edit_requested=true' target="_blank">
+                    <TextLinkLocation href='https://forms.gle/kftBL29J3nx5m2ZJ9' target="_blank">
                     Clique aqui para confirmar a sua presença
                     </TextLinkLocation>
                 </ContainerCircleLocation> 
