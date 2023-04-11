@@ -150,12 +150,20 @@ export default function Home(){
 
                 <ContainerCenterFlexRow>
                 <TextContentValueWidth>
-                    MAIORES DE 18 ANOS
+                    CRIANÇAS DE 6 A 10 ANOS
                 </TextContentValueWidth>
                 <TextContentValueRight>
                     49,
                 </TextContentValueRight>
                 </ContainerCenterFlexRow>
+                {/* <ContainerCenterFlexRow>
+                <TextContentValueWidth>
+                    MAIORES DE 18 ANOS
+                </TextContentValueWidth>
+                <TextContentValueRight>
+                    49,
+                </TextContentValueRight>
+                </ContainerCenterFlexRow> */}
                 </ContainerCenterValuesColumn>
                 <TextFooterCenterValues>
                 ** não inclui bebidas e taxas de serviço
