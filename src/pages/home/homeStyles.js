@@ -241,14 +241,14 @@ export const TextContentValueWidth = styled.span`
 
     text-align: justify;
     font-size: 0.7rem;
-    width: 50%;
+    width: 60%;
 `;
 
 export const TextContentValueRight = styled.span`
     font-family: "Corben", cursive;
     text-align: center;
     font-size: 0.7rem;
-    width: 50%;
+    width: 40%;
 `;
 
 export const TextFooterCenterValues = styled.span`
